@@ -11,7 +11,7 @@ else
 end
 
 -- Misc
-local version = "1.1"
+local version = "1.2"
 local author = "HW"
 local AUTOUPDATE = false
 local iDmg = 0
@@ -24,7 +24,7 @@ local ERange = 425
 local QRange = 1200
  
 function OnLoad()
-Noctcfg = scriptConfig("Nocturne V1.1", "Nocturne by HW")
+Noctcfg = scriptConfig("Nocturne V1.2", "Nocturne by HW")
   Noctcfg:addSubMenu("Combo Settings", "combo")  
 	Noctcfg:addSubMenu("Draw Settings", "draw")
 	Noctcfg:addSubMenu("Auto Settings", "auto")
